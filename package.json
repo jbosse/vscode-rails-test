@@ -6,8 +6,9 @@
   "engines": {
     "vscode": "^1.56.0"
   },
+  "publisher": "jobo-studios",
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [
     "onLanguage:ruby"
