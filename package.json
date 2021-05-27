@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.56.0"
   },
+  "repository": "https://github.com/jbosse/vscode-rails-test",
   "publisher": "jobo-studios",
   "categories": [
     "Programming Languages"
