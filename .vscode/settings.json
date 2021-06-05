@@ -1,0 +1,12 @@
+{
+  "editor.rulers": [
+    100,
+    120
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/deps": true
+  },
+}
