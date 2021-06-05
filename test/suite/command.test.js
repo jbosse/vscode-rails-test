@@ -2,9 +2,7 @@ const assert = require('assert');
 const vscode = require('vscode');
 const { runFile, runDescribe, runTest, command } = require("../../command");
 
-suite('Extension Test Suite', () => {
-  vscode.window.showInformationMessage('Start all tests.');
-
+suite('Command Test Suite', () => {
   test("runFile will send the command to the terminal", () => {
     let actualCommand = "";
     const fakeTerminal = { sendText: function (cmd) { actualCommand = cmd; } };
